@@ -8,7 +8,7 @@ int main()
 	int res = 0;
 	int choice = 0;
 
-printf("Enter 1 for addition \n 2 for Sub \n 3 for Mul\n");
+printf("Enter 1 for addition \n 2 for Sub \n 3 for Mul\n 4 for Div\n");
 scanf("%d", &choice);
 
 switch(choice)
@@ -16,6 +16,8 @@ switch(choice)
 case 1: res = a + b; break;
 case 2: res = a - b; break;
 case 3: res = a * b; break;
+case 4: res = a / b; break;
+
 default: printf("invalid choice\n"); break;
 }
 
